@@ -4,8 +4,7 @@ import { type NextRequest, NextResponse } from 'next/server'
 
 // esto es una opción de Next.js, para evitar que cachee de forma
 // estática la ruta, y que siempre se ejecute en el servidor
-// export const dynamic = 'force-dynamic'
-// Test
+export const dynamic = 'force-dynamic'
 
 // Funcion GET <---
 export async function GET (request: NextRequest) {
